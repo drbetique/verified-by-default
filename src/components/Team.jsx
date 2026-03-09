@@ -33,12 +33,6 @@ export default function Team() {
           ))}
         </div>
       </div>
-
-      <div style={{ background:S.card, border:`1px solid ${S.border}`, borderRadius:4, padding:14 }}>
-        <div style={{ fontSize:9, color:S.dim, letterSpacing:2, marginBottom:10 }}>HOW TO UPDATE TEAM NAMES</div>
-        <div style={{ fontSize:11, color:S.dimLight, fontFamily:S.fontSans, lineHeight:1.6 }}>
-          Open <span style={{ color:S.teal, fontFamily:S.font }}>src/data.js</span> and update the <span style={{ color:S.teal, fontFamily:S.font }}>TEAM</span> array with real teammate names and roles once you have them from the festival.
-        </div>
       </div>
     </div>
   );
