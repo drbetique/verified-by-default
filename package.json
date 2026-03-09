@@ -1,0 +1,22 @@
+{
+  "name": "verified-by-default",
+  "version": "1.0.0",
+  "description": "Sensor-verified factory data layer for the Joynn circularity index",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.10.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.2.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "Victor Betiku — Häme University of Applied Sciences",
+  "notes": "RUN-EU Entrepreneurship Festival 2026, NHL Stenden Leeuwarden. Update TEAM array in src/data.js with real teammate names."
+}
