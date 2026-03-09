@@ -6,8 +6,8 @@ export default function Team() {
   return (
     <div className="fade-in">
       <div style={{ marginBottom:14 }}>
-        <div style={{ fontSize:9, color:S.dim, letterSpacing:2, marginBottom:2 }}>BUILD TEAM  ·  RUN-EU ENTREPRENEURSHIP FESTIVAL 2026</div>
-        <div style={{ fontSize:16, fontFamily:S.fontSans, fontWeight:700, color:S.white }}>NHL Stenden  ·  Leeuwarden</div>
+        <div style={{ fontSize:9, color:S.dim, letterSpacing:2, marginBottom:2 }}>BUILD TEAM - RUN-EU ENTREPRENEURSHIP FESTIVAL 2026</div>
+        <div style={{ fontSize:16, fontFamily:S.fontSans, fontWeight:700, color:S.white }}>NHL Stenden - Leeuwarden</div>
       </div>
 
       <div style={{ display:"grid", gridTemplateColumns:"repeat(5,1fr)", gap:10, marginBottom:20 }}>
@@ -23,7 +23,7 @@ export default function Team() {
       </div>
 
       <div style={{ background:S.card, border:`1px solid ${S.border}`, borderRadius:4, padding:16, marginBottom:12 }}>
-        <div style={{ fontSize:9, color:S.dim, letterSpacing:2, marginBottom:10 }}>PROJECT  ·  VERIFIED BY DEFAULT</div>
+        <div style={{ fontSize:9, color:S.dim, letterSpacing:2, marginBottom:10 }}>PROJECT - VERIFIED BY DEFAULT</div>
         <div style={{ fontSize:13, color:S.white, fontFamily:S.fontSans, lineHeight:1.7, maxWidth:640, marginBottom:14 }}>
           A sensor-verified factory data layer for the Joynn circularity index. We replace self-reporting with real hardware measurements. No trust required. The sensors report for the factory.
         </div>
@@ -32,7 +32,6 @@ export default function Team() {
             <span key={t} style={{ background:S.teal+"18", border:`1px solid ${S.teal}44`, color:S.teal, fontSize:9, padding:"3px 8px", letterSpacing:1 }}>{t}</span>
           ))}
         </div>
-      </div>
       </div>
     </div>
   );
